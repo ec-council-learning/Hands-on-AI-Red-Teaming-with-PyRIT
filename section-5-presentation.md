@@ -84,16 +84,16 @@ CVSS Severity Mapping:
 7.0-8.9: High
 9.0-10.0: Critical
 
-Example CVSS Score for LLM Jailbreak:
+Example CVSS Score for LLM Backdoor:
 Base Score: 8.7 (High)
 - Attack Vector: Network (AV:N)
-- Attack Complexity: Low (AC:L)
+- Attack Complexity: Complex (AC:H)
 - Privileges Required: None (PR:N)
 - User Interaction: Required (UI:R)
 - Scope: Changed (S:C)
 - Confidentiality: High (C:H)
 - Integrity: High (I:H)
-- Availability: None (A:N)
+- Availability: Low (A:L)
 ```
 
 3. Custom Scoring for Executive Reporting
