@@ -16,7 +16,7 @@ Key vulnerability categories include:
 
 A recently discovered novel attack method called "ShadowLogic" allows attackers to create codeless, surreptitious backdoors in AI models by manipulating their computational graph. These backdoors persist through fine-tuning and can hijack models to trigger attacker-defined behavior when specific inputs are received.
 
-## Mitigation Strategy
+## [Mitigation Strategy](https://github.com/rabbidave/ZeroDay.Tools?tab=readme-ov-file#zerodaytools---gen-ai-hardening--attack-suite)
 
 Affecting Enterprise AI/ML Observability & Safety requires development and integration of four product categories:
 
@@ -33,7 +33,7 @@ Three core competencies are essential:
 * **Internal Explainability**: Detailed audit of AI activations & decisions
 * **Per-Component Securability**: Minimizing residual risk
 
-## 'AI Passport' Approach
+## ['AI Passport' Approach](https://github.com/rabbidave/LatentSpace.Tools?tab=readme-ov-file#ai-security-architecture)
 
 Implementation requires a role-based approach with an API control plane that provides:
 
