@@ -1,4 +1,6 @@
-# Deep Dive: The Evolution of AI Architectures - From Attention to Stateful Memory
+# Deep Dive: The Evolution of AI Architecture(s)
+
+Stateless to Stateful Systems
 
 ## Introduction
 
@@ -73,6 +75,7 @@ Key innovations in the Titans architecture include:
 What makes Titans particularly significant is its ability to "learn how to memorize at test time." Unlike traditional models that can only retrieve information within their fixed context window, Titans can dynamically store and recall information across much longer time horizons.
 
 Three variants have been developed, each with different methods of integrating state:
+
 - **Memory as Context (MAC)**: Combines memory with current context for processing
 - **Memory as Gating (MAG)**: Uses memory to control information flow
 - **Memory as a Layer (MAL)**: Incorporates memory as a distinct processing layer
